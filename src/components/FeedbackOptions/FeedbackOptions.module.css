@@ -1,0 +1,23 @@
+.feedbackOptions {
+  display: flex;
+  justify-content: center;
+}
+.feedbackOptions_button {
+  width: 100px;
+  height: 60px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #d3d3d3;
+  border-radius: 4px;
+  border: none;
+}
+.feedbackOptions_button:not(:last-child) {
+  margin-right: 20px;
+}
+.feedbackOptions_button:hover,
+.feedbackOptions_button:focus {
+  background-color: #add8e6;
+  cursor: pointer;
+  outline: none;
+}
